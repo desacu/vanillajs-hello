@@ -1,0 +1,83 @@
+@font-face {
+  font-family: billabong;
+  src: url(./assets/fonts/Billabong.ttf);
+}
+
+:root {
+  --grey_border: #dbdbdb;
+  --grey_background: #fafafa;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto Light";
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  padding: 0.6rem 1.4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: billabong;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.stories {
+  margin: 0;
+  padding: 1rem;
+  border: 1px solid var(--grey_border);
+  margin: 0 2px;
+}
+
+@media screen and (max-width: 640px) {
+  .search {
+    display: none;
+  }
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+  font-size: 24px;
+}
+
+.user-avatar {
+  width: 24px;
+  border-radius: 50%;
+}
+
+.search {
+  color: #757575;
+}
+
+.search input {
+  padding-left: 1.8rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  width: 16rem;
+  border: 1px solid var(--grey_border);
+  background-color: var(--grey_background);
+  border-radius: 4px;
+}
+
+.search input:focus,
+input:active {
+  outline: none;
+}
+
+.search i {
+  font-size: 14px;
+  position: relative;
+  left: 28px;
+}
