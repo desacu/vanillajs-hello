@@ -2,6 +2,7 @@
 import "./style.css";
 
 import "./assets/img/instagramIcon.png";
+import "./assets/img/instagram.png";
 import "./assets/img/hipster-designer.jpg";
 
 window.onload = function() {
