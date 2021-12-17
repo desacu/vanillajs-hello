@@ -1,5 +1,5 @@
 /* eslint-disable */
-import "./style.css";
+import "./styles/style.css";
 
 import "./assets/img/instagramIcon.png";
 import "./assets/img/instagram.png";

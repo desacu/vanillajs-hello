@@ -1,0 +1,50 @@
+@import "./header.css";
+
+:root {
+  --border_grey: #dbdbdb;
+  --background_grey: #fafafa;
+  --background_white: white;
+  --font_search_grey: #757575;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto Light";
+  font-size: 18px;
+  background-color: var(--background_grey);
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body > page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 935px;
+}
+
+.main {
+  width: 70%;
+}
+
+.stories {
+  margin: 0;
+  padding: 1rem;
+  border: 1px solid var(--border_grey);
+  margin: 0 2px;
+}
+
+.feed {
+  border: 1px solid var(--border_grey);
+  margin: 0 2px;
+}
+
+.suggested_friends {
+  width: 30%;
+}
